@@ -15,6 +15,7 @@ const Header = () => {
       bg="transparent"
       variant="dark"
       fixed="top"
+      className="main-header"
     >
       <Container fluid>
         <Navbar.Brand className="d-flex align-items-center">
