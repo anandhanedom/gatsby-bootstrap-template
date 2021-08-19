@@ -1,0 +1,9 @@
+// Overwrite here
+
+$black: #000;
+
+$theme-colors: (
+  "black": $black,
+);
+
+@import "bootstrap/dist/css/bootstrap.min.css";
