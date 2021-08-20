@@ -15,7 +15,7 @@ const Header = () => {
       bg="transparent"
       variant="dark"
       fixed="top"
-      className="main-header"
+      className="main-header text-uppercase"
     >
       <Container fluid>
         <Navbar.Brand className="d-flex align-items-center">
@@ -40,7 +40,10 @@ const Header = () => {
             <Nav.Link eventKey={2}>About</Nav.Link>
             <Nav.Link eventKey={3}>In Parliament</Nav.Link>
             <Nav.Link eventKey={6}>CTF</Nav.Link>
-            <Button variant="outline-info" className="rounded-0 border-2">
+            <Button
+              variant="outline-info"
+              className="rounded-0 border-2 text-uppercase"
+            >
               Contact Us
             </Button>
           </Nav>
