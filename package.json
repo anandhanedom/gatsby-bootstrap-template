@@ -16,7 +16,10 @@
   "dependencies": {
     "bootstrap": "^5.1.0",
     "gatsby": "^3.11.1",
+    "gatsby-plugin-image": "^1.12.0",
     "gatsby-plugin-sass": "^4.12.0",
+    "gatsby-plugin-sharp": "^3.12.0",
+    "gatsby-source-filesystem": "^3.12.0",
     "node-sass": "^6.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^2.0.0-beta.5",

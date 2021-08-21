@@ -2,13 +2,20 @@
 
 // Overwrite here
 $black: #000;
+$primary: #2976bb;
 
 $theme-colors: (
   "black": $black,
+  "primary": $primary,
 );
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+// Hero
+.hero-caption {
+  font-weight: 600;
 }
 
 @import "bootstrap/dist/css/bootstrap.min.css";
